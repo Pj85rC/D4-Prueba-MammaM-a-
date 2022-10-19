@@ -1,0 +1,13 @@
+body{
+    margin:0;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    color: #fff;
+    background-image: url(../assets/bannerP.jpg);
+    background-repeat: no-repeat ;
+}
