@@ -12,14 +12,11 @@ const navigate = useNavigate();
         <div key={i} className="card" style={{ width: "18rem" }}>
           <img src={p.img} className="card-img-top" alt={p.name} />
           <div className="card-body">
-            <h5 className="card-title">{p.name}</h5>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h3 className="card-title">{p.name}</h3>
           </div>
           <hr />
           <ul className="">
+          <h5>Ingredientes:</h5>
             {p.ingredients.map((i, index) => (
               <li key={index} className="list-group-item">{i}</li>
             ))}

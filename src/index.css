@@ -1,0 +1,30 @@
+.card-container {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card-btns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-btns button {
+    margin: 1rem;
+  }
+  
+  .nav-carrito {
+    display: flex;
+  }
+  
+  .nav-carrito h5 {
+    margin-right: 1rem;
+  }
+  

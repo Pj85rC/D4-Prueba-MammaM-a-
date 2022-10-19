@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      <hr className="w-75 mx-auto" />
       <div className="container">
         <Card />
       </div>
