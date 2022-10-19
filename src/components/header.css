@@ -12,9 +12,20 @@ body{
     background-image: url(../assets/bannerP.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
-    opacity: 0.6;
+    position: relative;
 }
 
-h5, p{
-    color:  black;
+.contenedor::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.70);
+}
+
+h2, p{
+    color:  #bababa;
+    position: relative;
 }
